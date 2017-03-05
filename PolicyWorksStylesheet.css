@@ -1,0 +1,134 @@
+body {
+  width: available;
+  background-color:#002537;
+  color:cornsilk;}
+  
+#top {
+  font-family:"Cinzel", Palatino, serif;
+  margin: 10px;
+  font-size: 2.4em;
+  padding: 10px 40px 10px 40px;
+  vertical-align:middle;
+  border-bottom: 3px solid #8e001e;}
+
+main {
+  height: 70%;
+  padding-top: 30px;
+  padding-left: 40px;
+  margin-bottom: 40px;
+  display: flex;    
+  flex-direction: row;} 
+  
+nav {
+  flex: 1 2 40%;    /*grow 1x more,let shrink 3x more, initial length*/
+  order: 1;}
+
+#heading {
+  font-family: "Cinzel", Palatino, serif;
+  font-weight: 600;}
+	
+ul {
+  list-style-type:none;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;}
+
+li a {
+  display: block;
+  width: 65%;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #1f3a47;
+  margin-left: 40px;
+  text-decoration: none;
+  color: #f8f4e2;
+  font-family: Palatino, serif;
+   }
+  
+li a:visited { 
+  text-decoration: none; 
+  color: #0088cc; }
+li a:hover { 
+  text-decoration: none; 
+  color: #ff335f; } 
+    
+article {
+  flex: 2 1 60%;
+  order: 2;}    
+
+figure {
+  width:100%;}
+ 
+img {
+  border-radius: 5px;
+  height: 325;
+  width: 400;
+  max-width:90%;}
+  
+figcaption {
+  font-style: italic;}
+  
+#gallerylink {
+  margin-left: 20px;
+  padding-left: 20px;}
+  
+#gallerylink a{
+  color:violet;}
+  
+footer {
+  width: 95%;}  
+ 
+#bio{
+  padding: 40px; 
+  text-align: justify;
+  font-size: 0.8em;
+  font-family:"Times New Roman";
+  margin: 12px 50vw 0 0;}
+  
+#thumbnail {
+  float:left;
+  height:90px;
+  width:80px;
+  margin-right: 30px;}
+
+@media (min-width:80px) and (max-width:1080px) {
+  	main {
+	   -webkit-flex-direction:column;
+  	 -moz-flex-direction:column;
+  	 flex-direction: column;
+      
+    /* -webkit-flex:2;
+     -moz-flex:2;
+     flex:2;*/
+     }
+		
+    nav {
+	    -webkit-order:2;
+	    -moz-order:2;
+	     order:2;}
+    
+  article {
+	    -webkit-order: 1;
+	    -moz-order:1;
+	     order: 1;
+      
+      -webkit-min-height:50vh;
+      -moz-min-height:50vh;
+       min-height: 50vh;}
+       
+   #bio{
+  	padding: 10px;
+  	-webkit-padding: 10px; 
+  	-moz-padding: 10px;
+  	text-align: left;
+ 	-webkit-text-align: left;
+ 	-moz-text-align: left;
+ 	margin: 12px 10px 0 0;
+  	-webkit-margin: 12px 10px 0 0;
+  	-moz-margin: 12px 10px 0 0;}
+  
+ }
+    
+
+  
+	
