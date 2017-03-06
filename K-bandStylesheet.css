@@ -1,0 +1,76 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  /*background-color: #fff9e6;*/ 
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+    
+  color: #fff9e6;}
+
+main {
+  height: 100%;
+  width: 75%;
+  background-image: url("http://www.k-band.us/BirdOnStage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;  
+  margin: auto;
+  display: flex;           /*for flex container */
+  flex-direction: row;
+  /*border-left: 100px solid #671931;
+  border-right: 100px solid #671931;*/
+  }  
+  
+nav {
+	margin: 4 4 4 60;}
+	
+ul {
+  list-style-type:none;
+  margin:4px;
+  padding:6em 0 6em 6em;
+  }
+
+li a {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;  
+  font-size: 1.8em;
+  font-weight:500;
+  font-family:"Cinzel", Palatino, serif;
+  color: #fff9e6;
+  text-decoration: none; 
+  text-shadow: 1px 1px 1px black;}
+
+li a:visited { 
+  text-decoration: none; 
+  color: #8585ad; }
+li a:hover { 
+  text-decoration: none; 
+  color: #CC66FF; } 
+  
+/*
+#top {
+  font-family:"Cinzel", Palatino, serif;
+  color: #000066;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2em;
+  font-weight: 700;
+  padding: 1em 0em 1em 2.5em;}
+  */
+ 
+#copyright {
+    font-size: .7em;
+    color: #e6b3b3;
+    margin-left: 40px;
+    padding-bottom: 2em;}
+  
+#baronsamedi {
+	height: 150px;
+	width: 150px;
+	margin-bottom:5px; }

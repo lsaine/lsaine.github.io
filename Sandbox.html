@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+​  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">       <!--match screen width in device-independent pixels-->
+  <title>Sandbox</title>
+  <link type="text/css" rel="stylesheet" href="SandboxStylesheet.css">
+</head>	
+	
+<body>
+<main>
+
+	<div id="link">
+		<a href="http://www.doubleunion.org/">Visit Double Union</a>
+		</div>		
+	
+	<p> Caffe Trieste panoramic view</p>
+	<iframe id="panorama" width="800" height="400" allowfullscreen frameborder="0" src="NorthBeachPanorama.jpg"></iframe>
+	
+	<br></br>
+
+	<p>Scrolling: The Ada Initiative</p>
+
+	<div class="scroll">
+
+	<p>When we began our work, most open tech/culture community members were unaware of the obstacles facing women in their communities, much less how to solve them. With the help of over 700 sponsors and donors and thousands of volunteers, we led a sweeping revolution in awareness of what women have to overcome to participate of open tech/culture. Now the majority opinion is that the lack of women in open tech/culture is a problem and people of all genders have a responsibility to solve that problem.  Mary Gardiner and Valerie Aurora co-founded the Ada Initiative in January 2011. Our goal was to advance the cause of support women in open technology and culture by paying activists to work full-time on solutions. Previously, they volunteered for over ten years in open source software, open culture communities, and women in computing activism. The Ada Initiative's board of directors includes Sue Gardner, Executive Director of the Wikimedia Foundation and Caroline Simard, former VP of Research and Executive Programs at the Anita Borg Institute. We draw upon the experiences and wisdom of a diverse advisory board including people involved in open source software, Wikipedia, open hardware, computer security, feminist activism, and fandom. Ada Lovelace portraitThe Ada Initiative welcomes women of all kinds, and specifically welcomes trans women and genderqueer women. We strive to be an intersectional social justice organization.  The Ada Initiative is named for Countess Ada Lovelace, widely acknowledged as the world's first computer programmer. Since she published the source code of her program, the world's first programmer was also a woman open source programmer. We think this sets an excellent precedent.</p>
+	</div>  	
+   	<br></br>	
+	
+	<p>Buttons:</p>
+	
+	<button id="button" type="button" onclick="myAlert()">Alert</button>    
+    	<br></br>
+	
+	<button  id="change" type="button" onclick="myChange()">Change Me</button>
+	<br></br>
+		
+	<button id="button" type="button" onclick = "prompt('Hey there, do you want to keep going?')">Prompt</button>
+	<br></br>
+			
+	<p>Color Canvas:</p>	
+	<canvas id="color"  width="300" height="200" style="border:1px solid #000000;"></canvas>  
+	<br></br>
+	
+	<p>Gradient Canvas:</p>
+	<canvas id="gradient" width="300" height="200" style="border:1px solid #000000;"></canvas>
+	<br></br>
+	
+	<p>Rectangle Canvas:</p>
+	<canvas id="rectangle" width="300" height="200" style="border:1px solid #000000;"></canvas>
+	<br></br>
+	
+	<p>Drag and Drop:</p>
+	<img id="drag" type="image/png" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSAFwWeBsINOo4Pn4iSYRRbnAd3g8KYoh8z_yadRtEpDFCWGCW" draggable="true" ondragstart="drag(event)" width="200" height="100"></img>
+	
+	<div id="drop" ondrop="drop(event)" ondragover="allowDrop(event)" width="336" height="69">Over here!</div>
+	<br></br>
+	<p>Help the TaskRabbit jump to the other side! </p>
+	
+		<!--ondragstart attribute calls drag(event) - specifies what data to be dragged
+		      ondrop attribute calls drop(event)
+		      ondragover calls allowDrop(event)-->
+</main>
+<br></br>
+	
+<footer>Sticky Footer</footer>		
+
+<script src="SandboxScript.js"></script>      <!--JavaScript context object creates graphics on the fly-->
+
+</body>
+</html>

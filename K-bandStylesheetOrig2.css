@@ -1,0 +1,133 @@
+/* palette primary dark #00BCD4 med #4DD0E1 light #B2EBF2 secondary #E91E63 */
+ 
+
+body {
+	width: 100vw;
+	background:#006080;
+	text-align: center;
+	font: 1.5em Alegreya, serif;
+	}
+		
+header, footer {
+	width: 100vw;
+	height: 7vh;
+	margin: 4px;
+	border: 1px solid #eebb55;
+	background-image: url("http://www.carlosfresquez.com/THUMBS/paint/9002.gif");
+	background-size: 7vh 7vh;
+	background-repeat: repeat-x;
+	}
+
+#top {
+	width: 100vw;
+	height: 8vh;
+	font-size:80%;	
+	
+	
+	background: #80E6CC;}
+
+#bottom {
+	width: 100vw;
+	height: 5vh;
+	margin: 20px 4px 4px 4px;
+	background: #80E6CC;} 
+	
+#logo {
+        font-size: 1.5em;
+	color: #990036;
+	font-family: 'Love Ya Like A Sister', cursive;}	
+   
+main {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	}
+
+article {
+	margin: auto;
+	padding-top: 4px;
+	flex: 3 1 50%;
+	order: 2;
+	}
+	  
+nav {
+	margin: 4px 4px 4px 40px;
+	padding-top: 4px;
+	background: #006080;
+	flex: 1 6 20%;
+    	order: 1;
+	}
+		
+aside {
+	margin: 4px 40px 4px 4px ;
+	padding-top: 4px;
+	background: #006080;
+	flex: 1 6 20%;
+	order: 3;
+   	}
+	
+#horses {
+        margin: 10px;
+	border: 4px solid #004d66;
+	height: 600px;
+	width: 600px;
+	}
+	
+#graffiti{
+	margin:10px 10px;
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;}
+	
+#baronsamedi {
+	height: 300px;
+	width: 300px;}
+	
+#KJA {
+	height:80;
+	width: 80;
+	background: #FFE066;
+	margin-top:20px;
+	margin-bottom: 7px;
+	}	
+
+ul {
+  list-style-type:none;
+  margin:2px 4px;
+  }
+
+li a {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+  background-color:#FFE066;
+  border-width: 0.25em;
+  border-style: inset;
+  border-color: #80E6CC;
+  }
+
+li a:link { text-decoration: none; color: #262673; }
+li a:hover { text-decoration: none; color: #CC66FF; }
+
+   
+@media (max-width:780px){
+
+  main{
+	flex:1;
+	flex-direction:column;
+	}
+  nav {
+	order: 1;
+	}
+  article{
+	min-height: 50vh;
+	order: 2;           
+	}
+  aside{
+	order: 3;
+	}
+  }
+	

@@ -1,0 +1,20 @@
+body {
+  background: #212121;
+  color: #D8D8D8;
+  height: 100vh;
+  width: 100vw;
+  }
+
+h3 {
+  margin-left:100px;
+  }
+
+#Amanda {
+  height: 900px;
+  width: 450px;
+  border: solid gray 5px;
+  margin-left: 100px;
+}
+
+
+  

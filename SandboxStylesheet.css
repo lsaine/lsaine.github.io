@@ -1,0 +1,57 @@
+body {
+  background-color: grey;}
+  
+main {
+  margin: 50px 50px 100px 50px;}
+
+#link {
+	height: 50px;
+	width: 300px;
+	text-align: center;
+	padding-top: 25px;
+	border-radius: 25px;
+	border-style: solid;
+	border-width: 3px;
+	background-color: aqua;
+	border-color: red;
+	margin: 40px auto auto auto;}
+	
+#button, #change {	
+	font-size: 1em;}
+		
+#video {
+	margin-left: 20px;}	
+
+.scroll {
+	background-color: white;
+	overflow-x: scroll;
+	height: 200px;
+	width: 650px;
+	margin-left: 20px;
+	padding-left: 10px;}
+
+#drag, #drop {
+	display:block;
+	margin:10px;
+	padding:10px;	}
+
+#drag {
+	float:left;
+	border:5px solid DarkGreen;}
+
+#drop {
+	float:right;
+	border:5px solid Aqua;}
+	
+footer {
+	position: fixed;
+	bottom: 0;
+	height: 20px;
+	width: 100vw;
+	clear: both;
+	text-align: center;
+	padding: 20px 40px 10px 40px;
+	background-color:#FFD175;
+	border-width: 10px;
+	border-color: #FFDB94;
+	border-radius: 4px;}

@@ -1,0 +1,84 @@
+body {
+background-color: #80002a;}
+
+#flex-grid {
+  display: flex;}
+  
+.cell {
+  flex: 1;}
+
+#baronsamedi {
+  height: 400px;
+  width: 400px;
+  float: left;
+  padding: 10px;}
+
+@media (max-width: 780px) {
+  .flex-grid {
+    display: block;}
+}
+
+
+/*
+
+<div class="row">
+    <div class="col-xs-12
+                col-sm-8
+                col-md-6
+                col-lg-4">
+        <div class="box">Responsive</div>
+    </div>
+</div>
+
+
+.column-1 {
+  width: 60px;
+}
+.column-2 {
+  width: 140px;
+}
+.column-3 {
+  width: 220px;
+}
+.column-4 {
+  width: 300px;
+}
+.column-5 {
+  width: 380px;
+}
+.column-6 {
+  width: 460px;
+}
+.column-7 {
+  width: 540px;
+}
+.column-8 {
+  width: 620px;
+}
+.column-9 {
+  width: 700px;
+}
+.column-10 {
+  width: 780px;
+}
+.column-11 {
+  width: 860px;
+}
+.column-12 {
+  width: 940px;
+}
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+  .column-1 {
+    width: 40px;
+  }
+  .column-2 {
+    width: 100px;
+  }
+  /* ... */
+}
+@media only screen and (max-width: 760px) {
+  /* ... */
+}
+@media only screen and (min-width: 480px) and (max-width: 760px) {
+  /* ... */
+}

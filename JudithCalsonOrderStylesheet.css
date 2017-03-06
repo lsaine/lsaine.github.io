@@ -1,0 +1,43 @@
+body {
+  background:#212121;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color:white;}
+  
+h1 {
+  padding-bottom: 5px;
+  margin-left: 10px;
+  font-style:italic;}
+  
+h2 {
+  padding: 10px;
+  margin: 10px auto;}
+  
+form {
+  font-size:1.2em;
+  color: black;
+  background:cornsilk;
+  margin: 20px;
+  width: 450px;
+  border: 1px solid #ccc;
+  border-radius:2px;
+  padding-left: 20px;}
+
+.form-row {
+  width: 100%;
+  padding: 5px;}
+  
+#selectphoto {
+    border:none;}
+  
+#stripe-button {
+  width: 50%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  margin: 10px;}
+  
+#bitcoin-button {
+  margin: 40px 20px;}  
+
+/*label span input
+

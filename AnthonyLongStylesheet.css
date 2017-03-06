@@ -1,0 +1,89 @@
+body {
+  font-family:Georgia, "Cinzel", serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e0b385;
+  margin:-10px;}
+     
+main {  
+  width:80vw;
+  margin:auto;
+  padding: 30px;
+  background-image:url('YelpNightPhotoCrop.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  border-left: 120px solid #2c2721;
+  border-right:120px solid #2c2721;
+  display: flex;           
+  flex-direction: row;}  
+
+nav {
+  flex: 1 2 12%;
+  margin-top: 10px;}           /*grow 1x more,let shrink 3x more, initial length*/
+  
+nav ul {    
+  list-style-type:none;
+   }
+
+nav li {
+  width: 80px;
+  font-size: 0.75em;
+  font-weight:500;
+  margin: 0px 0px 4px 0px ;
+  padding:2px 2px 2px 10px;
+  background-color:#7f6666;
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: #2d5986; }
+  
+nav li a{
+  display:block;                 /*make whole button clickable! */
+  color: black;
+  text-decoration:none;}
+
+article {  
+  flex: 2 1 78%;
+  margin-top: 80px;}
+
+#title { 
+  font-family: "Cinzel", Palatino, serif;
+  font-size: 9vh;  
+  font-weight: 700;
+  color: #a80b32;   
+  text-shadow: 3px 3px 3px #c6b8b8; }
+
+#copyright {
+  color: #7f6666;
+  padding: 20px ;
+  margin-left: 100px;
+  font-size: 0.8em;}
+  
+article ul {
+  list-style-type:none;}
+
+article li a {
+  /*display: block;
+  width: 450px;
+  padding: 5px 10px;
+  border-radius: 5px;*/
+  margin-left: -40px;
+  margin-bottom: 50px;
+  background-color: #002537;
+  text-decoration: none;
+  color: #c6b8b8;}
+ 
+@media (max-width:780px) {
+  	
+  main {flex-direction: column;   
+  	   -webkit-flex-direction:column;  
+          
+           width: 100vw;
+          -webkit-width: 100vw;
+           
+           border: none;
+           -webkit-border:none;}   
+         
+   }
+   
+   

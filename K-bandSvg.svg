@@ -1,0 +1,26 @@
+<svg
+	version="1.1"
+    	baseProfile="full"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:ev="http://www.w3.org/2001/xml-events">
+	
+	<defs>
+		<radialGradient id="circleGrad">
+			<stop offset="0%" stop-color="#FFCC66" />
+			<stop offset="100%" stop-color="#FFA319" />
+		</radialGradient>
+	</defs>
+
+	<rect height="80" width="80" fill="#FFE066" stroke-width="5px" stroke="pink"  ></rect>
+	
+	<ellipse fill="url(#circleGrad)" stroke="pink" stroke-width="5px" cx="50%" cy="50%" >
+		<animate attributeName="rx" values="5%;45%;5%" dur="10s" repeatCount="indefinite" />
+		<animate attributeName="ry" values="5%;45%;5%" dur="10s" repeatCount="indefinite" />
+	</ellipse>
+		
+	<text x="40" y="60" font-size="1em" font-family="'Love Ya Like A Sister', cursive" fill="magenta" text-anchor="middle">	K
+		<animate attributeName="font-size"  values="1em;4em;1em" dur="10s" repeatCount="indefinite"/>
+	</text>
+</svg>
+ 
